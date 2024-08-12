@@ -1,12 +1,9 @@
 img {
    position: relative;
-   display: block;
-   margin: auto;
-   margin-top: 90px;
-   min-height: 1vh;
-   
-   
+   display: inline-block;
+   margin-right: 20px;
 }
+
 header {
 position: fixed;
 top: 0;
@@ -17,4 +14,13 @@ lightblue;
 display: flex;
 justify-content: space-between;
 align-items: center; z-index: 100;
+}
+
+nav {
+   margin-right: 20px;
+   min-height: 1vh;
+}
+
+.home-content {
+   margin-left: 20px;;
 }
