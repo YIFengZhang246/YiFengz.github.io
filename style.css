@@ -10,7 +10,7 @@ top: 0;
 left: 0; width: 100%;
 padding: 20px 100px;
 background:
-lightblue;
+rgb(49, 53, 54);
 display: flex;
 justify-content: space-between;
 align-items: center; z-index: 100;
@@ -25,23 +25,41 @@ nav {
    margin-left: 20px;;
    margin-top: 40px;
 }
-.contact{
+.contact {
    display: inline-block;
    padding: 1rem 2.8rem;
-   background-color: #1E659A;
+   background-color: black; 
    border-radius: 4rem;
-   font-size: 1.6rem;
-   color: mintcream;
+   font-size: 10px;
+   color: white; 
    letter-spacing: 0.3rem;
-   font-weight: 600;
-   border: 2px solid mintcream;
+   font-weight: 650;
+   border: 2px solid black; 
    transition: 0.3s ease;
    cursor: pointer;
 }
 
-.contact:hover{
+.contact:hover {
    transform: scale3d(1.03);
-   background-color: lightblue;
-   color: black;
-   box-shadow: 0 0 25px lightblue;
+   background-color: black; 
+   color: white; 
+   box-shadow: 0 0 25px black;
+}
+#darklight {
+   width: 35px;
+   cursor: pointer; 
+}
+nav a {
+   flex: auto;
+   text-align: right;
+color:black 
+}
+body {
+   background-color: white;
+   color:black;
+}
+
+.logo {
+   color:black 
+   
 }
