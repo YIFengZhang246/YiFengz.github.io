@@ -80,3 +80,10 @@ body {
    filter: brightness(0) saturate(100%) hue-rotate(30deg) brightness(1.5);
 }
 
+h4 {
+   font-size: 25px;
+}
+
+.social-icons i {
+   font-size: 2rem; 
+}
