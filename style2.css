@@ -1,11 +1,19 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #000000;
+ }
+ .dark-theme {
+    --primary-color: black;
+    --secondary-color: white;
+ }
+body{
+    background-color: var(--primary-color);
 }
-
 h1, h3 {
 text-align: center;
 margin-top: 20px;
+background-color: var(--primary-color);
+color: var(--secondary-color);
 }
 p {
     display: flex;
@@ -13,6 +21,8 @@ p {
    margin-right: auto;
     text-align: center; 
   width: 1200px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .container {
     margin-top: 30px;
@@ -24,6 +34,8 @@ p {
 
 h2 {
     text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 #style {
    width: 500px;
@@ -32,4 +44,22 @@ h2 {
 #wire {
     width: 1000px;
     
+}
+
+#darklight {
+    width: 35px;
+    cursor: pointer; 
+}
+
+nav a {
+    color: black;
+}
+
+.logo {
+   
+    color: black;
+    
+ }
+ .dark-theme #darklight {
+    filter: brightness(0) saturate(100%) hue-rotate(30deg) brightness(1.5);
 }
